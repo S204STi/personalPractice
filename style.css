@@ -1,0 +1,23 @@
+body {
+  background-color: #9E9E9E;
+}
+
+a {
+  color: #212121;
+  decoration: none;
+}
+
+li {
+  border: 2px solid black;
+  border-radius: 4px;
+  display: table;
+  margin: 0 0 8px 0;
+}
+
+.menuLeft {
+  left:0px;
+  height: 100%;
+  position: fixed;
+  width: 250px;
+  background-color: #616161;
+}
