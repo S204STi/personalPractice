@@ -1,6 +1,6 @@
 //function to animate the menuLeft element
 
-var main = function()
+var main = function ()
 {
   //clicking on the toggleOn element should reveal the menuLeft element
   $('.toggleOn').click(function()
@@ -8,10 +8,8 @@ var main = function()
     $('.menuLeft').animate({
       left: "0px"
       }, 200);
-      //the following should hide the topBar element
-    $('.topBar').animate({
-      height: "0px";
-      }, 200);
+
+
   });
 //clicking on the toggleOff element should hide the menuLeft element
   $('toggleOff').click(function()
@@ -19,10 +17,8 @@ var main = function()
     $('menuLeft').animate({
       left: "-250px"
       }, 200);
-      //the following should cause the tobBar element to reappear
-    $('.topBar').animate({
-      height: "78px";
-      }, 200);
+
+
   });
 };
 
