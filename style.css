@@ -66,3 +66,12 @@ li {
   font-family: "Oswald"; sans-serif;
   font-size: 36px;
 }
+
+.signature {
+  font-family: "Oswald"; sans-serif;
+  color: #7CB342;
+  font-size: 72px;
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+}

@@ -12,9 +12,9 @@ var main = function ()
 
   });
 //clicking on the toggleOff element should hide the menuLeft element
-  $('toggleOff').click(function()
+  $('.toggleOff').click(function()
   {
-    $('menuLeft').animate({
+    $('.menuLeft').animate({
       left: "-250px"
       }, 200);
 
