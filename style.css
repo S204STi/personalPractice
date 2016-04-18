@@ -128,10 +128,21 @@ a {
 
 .aboutList  {
   display: grid;
+  color: #BDBDBD;
+  font-family: "Oswald"; sans-serif;
+  font-size: 36px;
 }
 
-.myFace {
+.mugShot {
   float: left;
   margin-top: 48px;
   margin-left: 48px;
+  margin-right: 48px;
+}
+
+ol {
+  color: #BDBDBD;
+  font-family: "Oswald"; sans-serif;
+  font-size: 36px;
+
 }
